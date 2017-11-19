@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+  color: MediumAquamarine;
+}
+
+.header img {
+  display: inline-flex;
+}
+
+.header li {
+  display: inline-block;
+}
+
+nav {
+  display: inline-flex;
+}
