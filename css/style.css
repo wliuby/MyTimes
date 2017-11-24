@@ -32,3 +32,35 @@
   justify-content: space-around;
   display: flex;
 }
+
+.main-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.footer-container {
+  height: 70px;
+  display:block;
+  border-top: 1px solid black;
+}
