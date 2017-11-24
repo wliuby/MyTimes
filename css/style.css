@@ -64,3 +64,50 @@
   display:block;
   border-top: 1px solid black;
 }
+
+.large-box1 {
+  display: flex;
+  background-image: url("../resources/img-story-main.png");
+}
+
+.large-box4 {
+  display: flex;
+  background-image: url("../resources/img-story-2.png");
+}
+
+.large-box6 {
+  display: flex;
+  background-image: url("../resources/img-story-3.png");
+}
+
+.medium-box2 {
+  display: flex;
+  background-image: url("../resources/img-story-1.png");
+}
+
+.large-box1,
+.large-box4,
+.large-box6,
+.medium-box2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 250px;
+}
+
+.large-box1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 250px;
+}
+.large-box2,
+.large-box3,
+.medium-box3 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  Padding: 5px 0;
+}
