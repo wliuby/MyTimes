@@ -115,13 +115,6 @@
   color: black;
 }
 
-.h1 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 10px;
-}
-
 .wrap-container {
   display: flex;
   justify-content: space-between;
@@ -151,4 +144,34 @@
   width: 325px;
   align-items: flex-start;
   height: 300px;
+}
+
+.h1,
+.news {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  height: 50px;
+}
+
+.bites-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  margin: 0px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+  color: DimGray;
+  width: 100%
+  padding: 20px 20px;
+}
+
+.bites-list div {
+  padding: 20px 20px;
 }
